@@ -1,2 +1,2 @@
-# TO-DO-bot-
+# TO-DO-bot
 A simple chat bot with nodejs
