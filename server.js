@@ -26,7 +26,7 @@ app.get("/list-all",(request,response,next) => {
 
 // set agenda 
 app.post ("/:emailId/set-agenda", (request,response)=>{
-  var agendasDict = readJsonFile("data/masterdata.json");
+  var agendasDict = readJsonFile("data/masterdata.json"); */create a file of this and in this file give a one empty object*/
   var newAgenda = {
           agenda: request.body.agenda,
           complete:false
